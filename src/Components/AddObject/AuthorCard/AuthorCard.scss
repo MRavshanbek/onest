@@ -1,0 +1,85 @@
+.AuthorCard__inner {
+  width: 351px;
+  padding-bottom: 5px;
+  background: #ffffff;
+  border-radius: 22px;
+  padding-top: 30px;
+  &__span {
+    display: block;
+    border: 1px solid #eeeeee;
+    margin-bottom: 18px;
+  }
+  &__span2 {
+    display: block;
+    border: 1px solid #eeeeee;
+    margin-bottom: 92px;
+  }
+  &__btn {
+    width: 341px;
+    height: 56px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 18px 20px 20px;
+    margin: 0 auto;
+  }
+  &__card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding-left: 30px;
+    margin-bottom: 17px;
+    &__img {
+      width: 82px;
+      height: 82px;
+      display: block;
+    }
+    &__out {
+      &__title {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin: 0;
+      }
+      &__span {
+        display: block;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        opacity: 0.4;
+        margin-bottom: 7px;
+      }
+      &__h3 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        text-decoration-line: underline;
+        color: #000000;
+        margin: 0;
+      }
+    }
+  }
+  &__p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 30px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}

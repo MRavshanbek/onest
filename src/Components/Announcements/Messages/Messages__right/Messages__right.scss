@@ -1,0 +1,107 @@
+.Messages__right__inner {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding-left: 37px;
+    padding-right: 29.17px;
+  &__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 24px;
+    &__span {
+      display: block;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 13px;
+      color: #cccccc;
+      margin-top: 30px;
+    }
+    &__img {
+      display: block;
+      width: 1.67px;
+      height: 13.33px;
+    }
+  }
+  &__div1 {
+    &__p {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #101828;
+      margin: 0;
+      width: 291px;
+      height: 68px;
+      background: #f4f4f4;
+      border-radius: 0px 8px 8px 8px;
+      margin-bottom: 6px;
+      padding: 14px 10px;
+    }
+    &__span {
+      display: block;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 18px;
+      color: #a5a5a5;
+      margin-left: 248px;
+    }
+  }
+  &__div2 {
+    margin-left: 248px;
+    margin-bottom: 316px;
+    &__p {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #101828;
+      margin: 0;
+      width: 291px;
+      height: 68px;
+      background: #f4f4f4;
+      border-radius: 0px 8px 8px 8px;
+      margin-bottom: 6px;
+      padding: 14px 10px;
+    }
+    &__span {
+      display: block;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 18px;
+      color: #a5a5a5;
+    }
+  }
+  &__div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #bababa;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    &__img {
+      width: 16px;
+      height: 16px;
+      display: block;
+      padding-left: 21px;
+      padding-bottom: 21px;
+      padding-top: 21px;
+    }
+    &__images {
+      width: 32px;
+      height: 32px;
+      display: block;
+      padding-right: 13px;
+      padding-bottom: 13px;
+      padding-top: 13px;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.Nearby__inner {
+    width: 1093px;
+    height: 583px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    padding-left: 32px;
+    padding-top: 32px;
+    margin-bottom: 26px;
+    &__prices{
+      width: 355px;
+      height: 58px;
+      background: #F2F4F5;
+      border-radius: 6px;
+    }
+  &__title {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  &__span {
+    display: block;
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+  &__list{
+    width: 960px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 38px;
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 11px 16px;
+        background: #F2F4F5;
+        border-radius: 12px;
+    }
+    &__item:hover{
+      background: #7000FF;
+      color: #FFFFFF;
+      & svg path{
+        stroke: #FFFFFF;
+      }
+    }
+  }
+  &__lists{
+    width: 981px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 44px;
+    &__item{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 6.66px;
+      padding: 11px 16px 11px 16.83px;
+      font-family: 'Onest';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+      background: #F2F4F5;
+      border-radius: 12px;
+    }
+    &__item:hover{
+      background: #7000FF;
+      color: #FFFFFF;
+      & svg path{
+        stroke: #FFFFFF;
+      }
+    }
+  }
+}

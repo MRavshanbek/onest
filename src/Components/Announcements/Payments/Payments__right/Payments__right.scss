@@ -1,0 +1,122 @@
+.Payments__right__inner {
+  margin-left: 40px;
+  &__balance {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #7000ff;
+    border-radius: 5px;
+    height: 58px;
+    &__title {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      color: #ffffff;
+      margin: 0;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      padding-right: 22px;
+      padding-left: 27px;
+      background: #7000FF;
+      border: none;
+      cursor: pointer;
+    }
+    &__div {
+      width: 640px;
+      height: 54px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 105px;
+      background: #ffffff;
+      margin-left: 2px;
+      padding-left: 16px;
+      padding-right: 88px;
+      border: radius 5px;
+      &__form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+      }
+      &__span {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        color: #000000;
+        opacity: 0.4;
+      }
+      &__title {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 22px;
+        color: #000000;
+        margin: 0;
+      }
+      &__labbel {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        gap: 7px;
+        &__input{
+          margin: 0;
+        }
+        &__p {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #000000;
+          margin: 0;
+        }
+      }
+    }
+  }
+  &__table {
+    width: 100%;
+    &__row {
+      margin-bottom: 10px;
+      &__th {
+        text-align: left;
+        padding: 15px 0;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        border-bottom: 1px solid #EEEE;
+      }
+      &__th select{
+        border: none;
+      }
+      &__th:nth-child(4) {
+        text-align: right;
+      }
+    }
+    &__column {
+      margin-bottom: 10px;
+
+      &__td {
+        text-align: left;
+        padding: 15px 0;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        border-bottom: 1px solid #EEEE;
+        
+      }
+    }
+  }
+}

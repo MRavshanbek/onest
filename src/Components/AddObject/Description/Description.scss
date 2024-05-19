@@ -1,0 +1,37 @@
+.Description__inner {
+  width: 1093px;
+  background: #ffffff;
+  border-radius: 22px;
+  padding-top: 32px;
+  padding-left: 32px;
+  margin-bottom: 20px;
+  &__title {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0f1826;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  &__text {
+    width: 1029px;
+    height: 203px;
+    border: none;
+    background: #f8f8f8;
+    border-radius: 12px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    outline: none;
+  }
+  &__text::placeholder {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    color: #bfbebe;
+  } 
+}

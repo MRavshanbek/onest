@@ -1,0 +1,66 @@
+.Picture__inner {
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-bottom: 37px;
+  width: 1093px;
+  background: #ffffff;
+  border-radius: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &__div {
+    width: 449px;
+    height: 50px;
+    background: #7000ff;
+    opacity: 0.1;
+    border-radius: 6px;
+    margin-bottom: 25px;
+  }
+  &__title {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #0f1826;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+  &__p {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0f1826;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    &__label {
+      &__div {
+        width: 180px;
+        height: 110px;
+        background: #f8f8f8;
+        border-radius: 12px;
+        line-height: 90px;
+        text-align: center;
+        &__span {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 18px;
+          color: #000000;
+        }
+      }
+      &__input {
+        display: none;
+      }
+    }
+  }
+}

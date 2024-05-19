@@ -1,0 +1,44 @@
+.AllMenuLeft__list {
+    width: 267px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  padding-right: 31px;
+  gap: 6px;
+  border-right: 1px solid #EEEEEE;
+  
+  &__item {
+    padding-left: 22.67px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7.67px;
+    width: 236px;
+    height: 51px;
+    border-radius: 6px;
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000E23;
+  }
+  &__item:hover{
+    background: rgba(112, 0, 255, 0.1);
+    color: #7000FF;
+    cursor: pointer;
+    & svg path {
+        stroke: #7000FF;
+      }
+  }
+  &__item:nth-child(5)
+  {
+    margin-bottom: 342px;
+  }
+
+}

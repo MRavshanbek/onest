@@ -1,0 +1,33 @@
+.Messages__left__card__inner {
+    width: 198px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  &__img {
+    display: block;
+    width: 52px;
+    height: 52px;
+  }
+  &__div{
+    &__title {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 19px;
+        color: #000000;
+        margin: 0;
+        margin-bottom: 6px;
+      }
+      &__p {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+        color: #121212;
+        opacity: 0.4;
+        margin: 0;
+      }
+  }
+}

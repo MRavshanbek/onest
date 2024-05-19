@@ -1,0 +1,25 @@
+.Messages__left__inner {
+  width: 252px;
+  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  &__btn {
+    background-color: white;
+    border: none;
+    margin-top: 345px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    gap: 7px;
+    &__span {
+      display: block;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 19px;
+      color: #000000;
+    }
+  }
+}

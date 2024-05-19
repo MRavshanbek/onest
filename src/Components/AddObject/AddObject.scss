@@ -1,0 +1,25 @@
+.addObject {
+  background: #bababa;
+  margin: 0;
+  padding-bottom: 48px;
+  &__inner {
+    padding-top: 50px;
+    margin-bottom: 44px;
+    &__div{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+    }
+    &__title {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 61px;
+      color: #0b0b0b;
+      margin: 0;
+      margin-bottom: 44px;
+    }
+  }
+}

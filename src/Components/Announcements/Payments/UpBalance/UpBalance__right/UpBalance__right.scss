@@ -1,0 +1,183 @@
+.UpBalance__right__inner {
+  margin-left: 40px;
+  &__balance {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #7000ff;
+    border-radius: 5px;
+    height: 58px;
+    &__title {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      color: #ffffff;
+      margin: 0;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      padding-right: 22px;
+      padding-left: 27px;
+      background: #7000ff;
+      border: none;
+      cursor: pointer;
+    }
+    &__div {
+      width: 640px;
+      height: 54px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 105px;
+      background: #ffffff;
+      margin-left: 2px;
+      padding-left: 16px;
+      padding-right: 88px;
+      border: radius 5px;
+      &__form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+      }
+      &__span {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        color: #000000;
+        opacity: 0.4;
+      }
+      &__title {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        line-height: 22px;
+        color: #000000;
+        margin: 0;
+      }
+      &__labbel {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        gap: 7px;
+        &__input {
+          margin: 0;
+        }
+        &__p {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #000000;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  &__out {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    &__way {
+      &__title {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+      }
+      &__form {
+        &__div {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 16px;
+          &__label span {
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            color: #121212;
+          }
+          &__label {
+            display: flex;
+            flex-direction: column;
+            width: 298px;
+            gap: 6px;
+            position: relative;
+            &__svg {
+              position: absolute;
+              left: 17px;
+              top: 52px;
+            }
+            &__input {
+              padding: 10px 14px;
+              border: none;
+              height: 44px;
+              background: #ffffff;
+              border: 1px solid #eeeeee;
+              box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+              border-radius: 8px;
+              flex: none;
+              order: 1;
+              align-self: stretch;
+              flex-grow: 0;
+            }
+            &__input:nth-child(3) {
+              padding-left: 55px;
+            }
+            &__card {
+              display: flex;
+              flex-direction: column;
+              width: 112px;
+              gap: 6px;
+              padding: 10px 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__systems {
+    width: 246px;
+    margin-top: 53px;
+    margin-left: 74px;
+    &__div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    &__title {
+        margin: 0;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #000000;
+      margin-bottom: 35px;
+    }
+    &__p {
+        margin: 0;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #9ca3af;
+      opacity: 0.3;
+      margin-bottom: 24px;
+    }
+  }
+}

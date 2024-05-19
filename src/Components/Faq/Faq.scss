@@ -1,0 +1,161 @@
+.Faq {
+  padding-top: 96px;
+  &__inner {
+    &__btn{
+      width: 117px;
+      height: 40px;
+      background: #7000FF;
+      border: 1px solid #7000FF;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+      border-radius: 8px;
+      font-family: 'Onest';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-bottom: 32px;
+    }
+    &__h3 {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      color: #000e23;
+      margin-bottom: 8px;
+    }
+    &__paragraph {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      color: #667085;
+      margin-bottom: 32px;
+    }
+    &__users {
+      margin-top: 96px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 50px;
+      &__img {
+        width: 56px;
+        height: 56px;
+        display: block;
+        position: absolute;
+        right: 51%;
+      }
+      &__img1 {
+        width: 56px;
+        height: 56px;
+        display: block;
+        position: absolute;
+        z-index: 1;
+      }
+      &__img2 {
+        width: 56px;
+        height: 56px;
+        display: block;
+        left: 51%;
+        position: absolute;
+      }
+    }
+    &__title {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 46px;
+      text-align: center;
+      color: #000e23;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    &__p {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      color: #667085;
+      margin: 0;
+      margin-bottom: 64px;
+    }
+    &__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__item {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000e23;
+        padding-bottom: 32px;
+        border-bottom: 1px solid #eeeeee;
+        margin-bottom: 24px;
+        &__div {
+          width: 746px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 8px;
+          &__sircle {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #7000ff;
+            border-radius: 50%;
+            position: relative;
+            &__columns {
+              width: 10px;
+              height: 2px;
+              background: #7000ff;
+              position: absolute;
+              top: calc(50% - 1px);
+              left: calc(50% - 5px);
+            }
+            &__rows {
+              position: absolute;
+              transform: rotate(90deg);
+              width: 10px;
+              height: 2px;
+              background: #7000ff;
+              top: calc(50% - 1px);
+              left: calc(50% - 5px);
+            }
+          }
+        }
+        &__lists {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: none;
+          &__items {
+            width: 720px;
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #667085;
+          }
+        }
+      }
+    }
+  }
+}
